@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.main-heading {
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: #0296e6;
+    color: #ffffff;
+}
+
+#form {
+    max-width: 40rem;
+    margin: 3rem auto;
+    border: solid 1px #101010;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+#form label {
+    font-size: 1.2rem;
+}
+
+#form input {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5rem;
+    border: solid .1rem #101010;
+    border-radius: .3rem;
+}
+
+#form button {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 20rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+    border: none;
+    background-color: #4cad61;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
+#form-heading {
+    font-size: 3.2rem;
+}
+
+#form-sub-heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-bottom: solid .2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.button-spacer {
+    display: inline-block;
+    width: 5rem !important;
+}
+
+#information-add, #material-add {
+    margin: 0 2rem;
+    display: inline-block !important;
+    width: 4rem !important;
+    background-color: #5aa1ed !important;
+}
+
+#information-remove, #material-remove {
+    margin: 0 2rem;
+    background-color: #c47364 !important;
+    display: inline-block !important;
+    width: 4rem !important;
+}
+
+#information-add:active, #material-add:active {
+    background-color: #5aa1cd !important;
+}
+#information-remove:active, #material-remove:active {
+    background-color: #aa7364 !important;
+}
+
+
+#information-remove:disabled, #material-remove:disabled {
+    background-color: #aaaaaa !important;
+}
+
+.material-container {
+    padding-bottom: 5rem;
+    border-top: solid .1rem #333333;
+}
+
+.material-container::first-child {
+    border-top: none;
+}
+
+.final-output {
+    max-width: 50rem;
+    margin: 5rem auto;
+    padding: 5rem 2rem;
+    box-sizing: border-box;
+    border: solid .1rem #101010;
+}
+
+ul {
+    list-style: none;
+}
+
+.final-heading {
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.final-sub-heading {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.final-info-flow {
+    margin-left: 2.4rem;
+}
+
+.final-info-flow li{
+    font-size: 1.2rem;
+    margin: .8rem 0;
+}
+
+.final-supplier-time {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.final-supplier-time span{
+    font-weight: 400;
+}
+
+.final-warehouse {
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.process {
+    margin-top: 1.6rem;
+}
+
+.process li {
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+
+.process li span{
+    font-weight: 600;
+}
